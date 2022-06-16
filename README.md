@@ -6,5 +6,11 @@ We will use AFLW2000 dataset with contains 2000 image and 2000 matlab file with 
 We will use MediaPipe library in both training and testing phases:
 In Training: first we dtect the face of each image then using the same library to generate the landmark points of the face after this phase the training data (features) will contain 1853 samples with 936 columns (468 for X and 468 for Y), for labels we will extract the 3 angels from the mat file.
 In Testing: we will use the MediaPipe Library to generate the landmarks as we did in the training phase and using the trained models to predict the 3 labels and using them to draw the axis.
+
 [
 HeadPoseResult.gif](https://github.com/islam-waheed/Head-Pose-Estimation-Using-Meidapipe/blob/6d5be398303d0d66f7d4afff3951d60c3713834a/HeadPoseResult.gif)
+
+
+
+https://user-images.githubusercontent.com/83949402/174128975-6ec02ce9-6b9d-4416-aabd-4a1288ae1cb8.mp4
+
